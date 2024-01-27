@@ -4,7 +4,6 @@ import time
 import threading
 
 class ProcessController:
-
     class ProcessManager(threading.Thread):
         def __init__(self, controller, lag):
             self.controller_ = controller
